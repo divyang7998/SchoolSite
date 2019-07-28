@@ -2,6 +2,14 @@
 
 A very basic website made with the help of Xampp Server in Windows, but similar can be used in Linux Operating system.
 
+school.sql is the original database used in the website making.
+Import it into phpMyadmin for proper functioning of the website.
+
+*Default Admin User name:- **Sebastian**
+Default Admin Password:- **Vettel**
+
+Use the phyMyAdmin or terminal sql commands to see **Student & Faculty UserId & Password**
+
 ## Installation
 
 Download [Xampp](https://www.apachefriends.org/index.html)
