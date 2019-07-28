@@ -1,0 +1,129 @@
+/*CSS for normal php / html pages*/
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-image: url("C:\xampp\htdocs\Mini\background.jpg");
+	/*background-color: grey;*/
+	/*background-repeat: repeat;*/
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+hr { 
+    display: block;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+}
+#1/* Logo Image Size*/{
+	height:150px;
+	vertical-align: middle;
+}
+#4/* Overview in About us (<Span)*/{
+	font-size: 16px;
+	color: #000066;
+}
+span/* Font beside the logo
+*/{
+	font-size:22px;
+	color: #000066;
+}
+
+nav{
+	width:100%;
+	height: 60px;
+	background-color: white; 
+}
+nav ul{
+	float:left;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	padding-left: 10px;
+}
+nav ul li a{
+	font-family: arial;
+	color:#222;
+	display: block;
+	font-size: 18px;
+	padding: 15px 14px;
+	text-decoration: none;
+}
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #eee;
+	padding: 7px;
+	border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li ul li{
+	width: 180px;
+	border-radius: 4px;
+}
+nav ul li ul li a{
+	padding: 8px 12px;
+}
+nav ul li ul li a:hover {
+	background-color: #f3f3f3;
+}
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 2em;
+    padding-right: 0.75em;
+    border: none;
+}
+
+.button{
+	background-color: transparent;
+}
+div.content{
+	position: relative;
+	left: 270px;
+	float: left;
+	max-width: 980px;
+}.auto{
+	max-width: 1140px
+}
+div.section{
+	margin-top: 16px!important;
+	margin-bottom: 16px!important;
+}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}  
+.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.bgcolor {
+    background-color: #f9f9f9;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    padding-top: 5px;
+    height: 80px;
+    padding-left: 10px;
+}
+h1, h2, h3 {
+    color: #000000;
+    text-transform: capitalize;
+}
+.transparentBtn {
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #090b77;
+    transition: 0.3s;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #090b77;
+}

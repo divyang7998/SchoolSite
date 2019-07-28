@@ -1,0 +1,50 @@
+/*CSS for Login pages*/
+body{font-family: "Times New Roman", Times, serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: black;
+}
+span/* Font beside the logo
+*/{
+    font-size:22px;
+    color: black;
+}
+h2{
+    color: black;
+}
+h3{
+    color: black;
+}
+#1{
+    color: white;
+}
+a{
+    size: 18px;
+    color: black;
+}
+p{
+    color: black;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    font-size: 12px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
